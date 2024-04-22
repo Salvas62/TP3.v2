@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Details</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script  type="text/javascript" src="detail.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+    <a class="navbar-brand" href="#">Salvas Recipes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="mb-4" id="recipe-title"></h1>
+      <p id="recipe-difficulty"><strong>Difficulty:</strong></p>
+      <div class="col-md-6">
+        <img  id ="recipe-image"src="" alt="" class="recipe-image" style="  max-width: 100%;height: auto;">
+      </div>
+      
+      <p id="recipe-prepTime"><strong>Prep Time:</strong></p>
+      <p id="recipe-cookTime"><strong>Cook Time:</strong></p>
+      <p id="recipe-serving"><strong>Servings:</strong> </p>
+      <p id="recipe-cuisine"><strong>Cuisine:</strong> </p>
+      <p id="recipe-calories"><strong>Calories per Serving:</strong> </p>
+      <p id="recipe-type"><strong>Meal Type:</strong></p>
+      <p id="recipe-rating"><strong>Rating:</strong></p>
+      <h2 class="mt-5">Ingredients</h2>
+      <p id="recipe-ingredients"></p>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col">
+      <h2 class="mt-5">Instructions</h2>
+<p id="recipe-instructions"></p>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-body-tertiary text-center">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form5Example26" class="form-control" />
+              <label class="form-label" for="form5Example26">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="submit" class="btn btn-primary mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright: Salvas Recipes
+   
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
